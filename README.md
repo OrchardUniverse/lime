@@ -1,2 +1,3 @@
-# lime
-The free but poor performance model service for anonymous users
+# Lime
+
+The free model service for anonymous users.
