@@ -1,3 +1,5 @@
 #!/bin/bash
 
-uvicorn lime.main:app --reload
+set -ex
+
+uvicorn lime.main:app --reload --port 10000
