@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Load config from local file
-lime_config: Config = load_config("lime_config.yaml")
+lime_config: Config = load_config("lime.yaml")
 OPENAI_API_KEY = lime_config.maas.api_key
 OPENAI_BASE_URL = lime_config.maas.base_url
 AVIALABLE_MODELS = lime_config.maas.models
