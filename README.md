@@ -20,7 +20,7 @@ Prepare a configuration file named `lime.yaml` with the following content. Chang
 
 ```
 maas:
-  base_url: "https://api.siliconflow.cn/v1"
+  base_url: ""
   api_key: ""
   default_model: ""
   models:
